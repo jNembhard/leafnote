@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const Leaf = require("../models/Leaf");
+const Leaf = require("../models/leaf");
 
 router.get("/", function (req, res) {
   const data = req.body;
