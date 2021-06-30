@@ -23,7 +23,7 @@
   "scripts": {
     "//": "react-scripts start",
     "start": "node server/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
+    "//": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
     "dev": "concurrently -n 'server,client' -c 'green,blue' \"nodemon cd server/server.js\" \"npm run start\"",
     "//": "serve -s build",
     "build": "react-scripts build",
