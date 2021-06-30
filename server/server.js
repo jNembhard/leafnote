@@ -18,8 +18,8 @@ app.get("*", function (req, res) {
 });
 
 const DYNO_URL = "https://leaf-note.herokuapp.com";
-const URL = "mongodb://localhost:27017/leafDB";
-const URI = process.env.MONGODB_URI || URL;
+// const URL = "mongodb://localhost:27017/leafDB";
+const URI = process.env.MONGODB_URI;
 
 const connectionParams = {
   useNewUrlParser: true,
