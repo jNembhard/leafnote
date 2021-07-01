@@ -4,8 +4,12 @@ const path = require("path");
 const wakeDyno = require("woke-dyno");
 const bodyParser = require("body-parser");
 
+// Force webpage redirect to https
+const secure = require("ssl-express-www");
+
 const app = express();
 app.use(bodyParser.json());
+app.use(secure);
 
 const PORT = process.env.PORT || 8080;
 
