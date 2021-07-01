@@ -23,6 +23,7 @@
   },
   "scripts": {
     "//": "serve -s build",
+    "//": "react-scripts start",
     "start": "node server/server.js",
     "dev": "concurrently -n 'server,client' -c 'green,blue' \"nodemon cd server/server.js\" \"npm run start\"",
     "build": "react-scripts build",
