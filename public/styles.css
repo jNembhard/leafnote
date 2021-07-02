@@ -10,8 +10,8 @@ body {
   background: #eee;
   background-color: #eee;
   background-image: url(./images/gplay.png);
-  /* max-height: 100vh;
-  max-width: 100vw; */
+  max-height: 100vh;
+  max-width: 100vw;
   /*padding: 0 0 16px;*/
 }
 
@@ -47,7 +47,7 @@ footer {
 }
 footer p {
   color: #ccc;
-} 
+}
 
 .note {
   background: #fff;
@@ -91,12 +91,14 @@ form.create-note {
   box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
 @media (max-width: 500px) {
-  form.create-note {
+  form.create-note,
+  .note {
     width: 380px;
   }
 }
 @media (max-width: 400px) {
-  form.create-note {
+  form.create-note,
+  .note {
     width: 280px;
   }
 }
