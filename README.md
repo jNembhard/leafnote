@@ -32,12 +32,19 @@ Below is a basic demo useful for using the website. Information is typed and add
 <body>
   <table>
     <tr>
-      <td><img src="/public/images/Leaf_Note_Demo_1.gif" alt="Leaf Note" /></td>
+      <td>
+        <img
+          src="/public/images/Leaf_Note_Demo_1.gif"
+          alt="Leaf Note"
+          width="200px"
+          height="400px"
+        />
+      </td>
       <td>
         <img
           src="/public/images/Database_Demo.gif"
           alt="Database"
-          width="200px"
+          width="550px"
         />
       </td>
     </tr>
