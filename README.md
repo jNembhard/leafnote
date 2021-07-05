@@ -62,7 +62,3 @@ Below is a basic demo useful for using the website. Information is typed and add
 | React           | <https://reactjs.org/>                                           |
 | ssl-express-www | <https://www.npmjs.com/package/ssl-express-www?activeTab=readme> |
 | woke-dyno       | <https://github.com/fermentationist/wokeDyno/>                   |
-
-## Roadmap
-
-Future updates will include an additional page which displays saved notes back to the user.
